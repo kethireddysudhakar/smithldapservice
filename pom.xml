@@ -63,7 +63,9 @@
     <groupId>com.ibm.db2.jcc</groupId>
     <artifactId>db2jcc4</artifactId>
     <version>10.1</version>
-    <scope>runtime</scope> 
+    <!-- <scope>runtime</scope>  -->
+     <scope>system</scope>
+        <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/db2jcc4-10.1.jar</systemPath>
 </dependency>
 		<!-- https://mvnrepository.com/artifact/org.hibernate.javax.persistence/hibernate-jpa-2.1-api -->
 		<dependency>
