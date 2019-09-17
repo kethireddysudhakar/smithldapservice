@@ -54,6 +54,8 @@
         <groupId>smithdrug</groupId>
         <artifactId>smithresponse</artifactId>
         <version>1.0</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/smithresponse-1.0.jar</systemPath>
         <!-- <scope>system</scope>
         <systemPath>C:/jars/response/SmithResponseAPI.jar</systemPath> -->
     </dependency> 
