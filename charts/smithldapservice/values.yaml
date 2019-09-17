@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.15.253.161:5000/jenkinsxdemoserver-252822/smithldapservice
+  tag: 0.0.2
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
